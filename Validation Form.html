@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Enter password again"
+          />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      /*
+      控制浏览器弹出一个警告
+      alert("Here is the first coding.");
+      */
+      /*
+      输出一个内容
+      document.write("Test");
+      */
+      /*
+      向控制台输出内容
+      console.log("Test");
+      */
+      /*
+      这种标签里写js的属于结构和行为耦合， 不适于后期的维护 
+
+      有了外部的文件， 就不会执行内部的了， 但是可以重新写一个script的段落
+      */
+     
+      /*
+      一个标准的js写法
+      */
+    </script>
+    <button onclick =  "alert('Why are you clicking me?');">Please click</button>
+    <a href="javascript:alert('Please click bitter');">Quickly!!!</a>
+    <script src="test.js"></script>
+  </body>
+</html>
